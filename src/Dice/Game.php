@@ -2,20 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Webbprogrammering\Dice;
+namespace Mos\Dice;
 
 use function Mos\Functions\{
     renderView,
     sendResponse
     };
 
-//use Webbprogrammering\Dice\Dice;
-//use Webbprogrammering\Dice\GraphicalDice;
-//use Webbprogrammering\Dice\DiceHand;
-
-/**
- * Class Dice.
- */
 class Game
 {
     public function playGame($nrOfDices): void

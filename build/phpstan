@@ -1,10 +1,24 @@
+ ------ ---------------------------------------- 
+ [32m Line [39m [32m config\router.php                      [39m 
+ ------ ---------------------------------------- 
+  13     Variable $router might not be defined.  
+  18     Variable $router might not be defined.  
+  19     Variable $router might not be defined.  
+  20     Variable $router might not be defined.  
+  21     Variable $router might not be defined.  
+  22     Variable $router might not be defined.  
+  29     Variable $router might not be defined.  
+  35     Variable $router might not be defined.  
+  40     Variable $router might not be defined.  
+ ------ ---------------------------------------- 
+
  ------ ---------------------------- 
  [32m Line [39m [32m src\Dice\DiceHand.php      [39m 
  ------ ---------------------------- 
-  57     Cannot use [] for reading.  
+  69     Cannot use [] for reading.  
  ------ ---------------------------- 
 
 [37;41m                                                                                                                        [39;49m
-[37;41m [ERROR] Found 1 error                                                                                                  [39;49m
+[37;41m [ERROR] Found 10 errors                                                                                                [39;49m
 [37;41m                                                                                                                        [39;49m
 
