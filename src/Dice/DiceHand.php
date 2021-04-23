@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Webbprogrammering\Dice;
+namespace Mos\Dice;
 
 /* use function Mos\Functions\{
     destroySession,
@@ -21,6 +21,7 @@ class DiceHand
     private array $dices; //sparar varje tärning i array
     private int $sum;
     private int $nrOfDices;
+
     public function __construct(int $nrOfDices)
     {
         $this->nrOfDices = $nrOfDices; // antal tärningar man vill kasta
@@ -49,6 +50,17 @@ class DiceHand
         }
         return $res . " = " . $this->sum;
     }
+
+    public function getLastRollWithoutSum(): array
+    {
+        $res = [];
+
+        for ($i = 1; $i <= $this->nrOfDices; $i++) {
+            array_push($res, $this->dices[$i]->getLastRoll());
+        }
+        return $res;
+    }
+
 
     public function getGraphicalDices(): array
     {
@@ -83,5 +95,15 @@ class DiceHand
         }
 
         return $returnedmess;
+    }
+
+    public function setNrOfDice($nrOfDices)
+    {
+        $this->nrOfDices = $nrOfDices;
+    }
+
+    public function getNrOfDice(): int
+    {
+        return $this->nrOfDices;
     }
 }

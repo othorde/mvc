@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Webbprogrammering\Dice;
+namespace Mos\Dice;
 
 /* use function Mos\Functions\{
     destroySession,
