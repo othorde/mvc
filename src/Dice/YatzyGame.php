@@ -11,10 +11,10 @@ use function Mos\Functions\{
 
 class YatzyGame extends DiceHand
 {
-    private ?int $sum = 0;
-    private ?int $whatRound = 0;
-    private ?int $whatThrow = 0;
-    private ?int $roundValue = 0;
+    public ?int $sum = 0;
+    public ?int $whatRound = 0;
+    public ?int $whatThrow = 0;
+    public ?int $roundValue = 0;
 
 
     public function __construct($nrOfDices)

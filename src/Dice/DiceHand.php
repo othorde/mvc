@@ -18,7 +18,7 @@ namespace Mos\Dice;
  */
 class DiceHand
 {
-    private array $dices; //sparar varje tärning i array
+    protected array $dices; //sparar varje tärning i array
     private int $sum;
     private int $nrOfDices;
 

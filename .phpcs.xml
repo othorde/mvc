@@ -8,7 +8,6 @@
     <exclude-pattern>build</exclude-pattern>
     <exclude-pattern>cache</exclude-pattern>
     <exclude-pattern>doc</exclude-pattern>
-    <exclude-pattern>test/config.php</exclude-pattern>
     <exclude-pattern>theme</exclude-pattern>
     <exclude-pattern>vendor</exclude-pattern>
 
@@ -17,5 +16,3 @@
 
     <rule ref="PSR12" />
 </ruleset>
-
-<!-- kodstandard PSR12, ovanför det finns de filer som ska exkluderas från kodstandard-->

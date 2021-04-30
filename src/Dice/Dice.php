@@ -21,9 +21,9 @@ class Dice
     private ?int $roll = null;
     private ?int $faces = null;
 
-    public function __construct(int $faces)
+    public function __construct() // ändra från att ta $faces som inparameter till hårdkordat värde på 6
     {
-        $this->faces = $faces;
+        $this->faces = 6;
     }
 
     public function roll(): int
@@ -31,6 +31,7 @@ class Dice
         $this->roll = rand(1, $this->faces);
         return $this->roll;
     }
+
 
     public function getLastRoll(): int
     {
