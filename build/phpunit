@@ -41,13 +41,13 @@ PHPUnit 9.5.4 by Sebastian Bergmann and contributors.
 <p></p>
 <p class = "dice-utf8">
 
-                <i class="dice-1"></i>
-                    <i class="dice-3"></i>
+                <i class="dice-3"></i>
+                    <i class="dice-5"></i>
             
 </p>
 <hr>
 
-<p>SUMMA: 4</p>
+<p>SUMMA: 8</p>
 
 
 <p>Du kan välja att kasta igen eller stanna</p>
@@ -81,7 +81,155 @@ PHPUnit 9.5.4 by Sebastian Bergmann and contributors.
 </footer>
 </body>
 </html>
-F<!doctype html>
+.<!doctype html>
+<html>
+    <meta charset="utf-8">
+    <title>No title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="://vendor/bin/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="://vendor/bin/css/style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="://vendor/bin/">Home</a> |
+        <a href="://vendor/bin/session">Session</a> |
+        <a href="://vendor/bin/debug">Debug</a> |
+        <a href="://vendor/bin/twig">Twig view</a> |
+        <a href="://vendor/bin/some/where">some/where</a> |
+        <a href="://vendor/bin/no/such/path">Show 404 example</a> |
+        <a href="://vendor/bin/gamebegin">Game 21</a> |
+        <a href="://vendor/bin/yatzy">Yatzy</a>
+
+    </nav>
+</header>
+<main>
+<h1></h1>
+
+<br>
+
+
+
+<p></p>
+
+<p></p>
+<p class = "dice-utf8">
+
+        
+</p>
+<hr>
+
+<p>SUMMA: 0</p>
+
+
+<p>Du kan välja att kasta igen eller stanna</p>
+<br><br><br>
+
+<p>Datorn fick:</p>
+
+<p>23</p>
+<p>Datorn får mer än 21, du vinner rundan</p>
+
+
+
+
+<hr>
+
+<p>Vinster (computer)</p>
+<p>22</p>
+<hr>
+
+<p>Vinster (player)</p>
+<p>1</p>
+<hr>
+
+<form action="gamebegin" method="POST">
+<input type="submit" name="stop" value = "STOP"> |
+<input type="submit" name="kasta" value = "KASTA" > |
+<input type="submit" name="reset" value = "RESET" >
+</main>
+<footer>
+    <p>This is the footer.</p>
+</footer>
+</body>
+</html>
+<!doctype html>
+<html>
+    <meta charset="utf-8">
+    <title>No title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="://vendor/bin/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="://vendor/bin/css/style.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <a href="://vendor/bin/">Home</a> |
+        <a href="://vendor/bin/session">Session</a> |
+        <a href="://vendor/bin/debug">Debug</a> |
+        <a href="://vendor/bin/twig">Twig view</a> |
+        <a href="://vendor/bin/some/where">some/where</a> |
+        <a href="://vendor/bin/no/such/path">Show 404 example</a> |
+        <a href="://vendor/bin/gamebegin">Game 21</a> |
+        <a href="://vendor/bin/yatzy">Yatzy</a>
+
+    </nav>
+</header>
+<main>
+<h1></h1>
+
+<br>
+
+
+
+<p></p>
+
+<p></p>
+<p class = "dice-utf8">
+
+        
+</p>
+<hr>
+
+<p>SUMMA: 0</p>
+
+
+<p>Du kan välja att kasta igen eller stanna</p>
+<br><br><br>
+
+<p>Datorn fick:</p>
+
+<p>21</p>
+<p>Du fick 21, men det fick datorn också, datorn vinner</p>
+
+
+
+
+<hr>
+
+<p>Vinster (computer)</p>
+<p>1</p>
+<hr>
+
+<p>Vinster (player)</p>
+<p>1</p>
+<hr>
+
+<form action="gamebegin" method="POST">
+<input type="submit" name="stop" value = "STOP"> |
+<input type="submit" name="kasta" value = "KASTA" > |
+<input type="submit" name="reset" value = "RESET" >
+</main>
+<footer>
+    <p>This is the footer.</p>
+</footer>
+</body>
+</html>
+<!doctype html>
 <html>
     <meta charset="utf-8">
     <title>No title</title>
@@ -138,11 +286,11 @@ F<!doctype html>
 <hr>
 
 <p>Vinster (computer)</p>
-<p>23</p>
+<p>1</p>
 <hr>
 
 <p>Vinster (player)</p>
-<p>0</p>
+<p>1</p>
 <hr>
 
 <form action="gamebegin" method="POST">
@@ -157,23 +305,10 @@ F<!doctype html>
 </html>
 .............033.                                        ..........                      44 / 44 (100%)
 
-Time: 00:03.726, Memory: 24.00 MB
+Time: 00:03.943, Memory: 24.00 MB
 
-There was 1 failure:
+OK (44 tests, 79 assertions)
 
-1) Mos\Dice\ControllerGameTest::testPlayGameComp
-Failed asserting that two strings are equal.
---- Expected
-+++ Actual
-@@ @@
--'Datorn vinner rundan'
-+'Datorn får mer än 21, du vinner rundan'
+Generating code coverage report in Clover XML format ... done [00:00.085]
 
-C:\Users\Othor\dbwebb-kurser\mvc\me\ci\test\Controller\ControllerGameTest.php:49
-
-FAILURES!
-Tests: 44, Assertions: 77, Failures: 1.
-
-Generating code coverage report in Clover XML format ... done [00:00.077]
-
-Generating code coverage report in HTML format ... done [00:00.169]
+Generating code coverage report in HTML format ... done [00:00.173]

@@ -1,13 +1,14 @@
 language: php
 
+os: windows
+
 php:
-    - "7.4"
-    #- "8.0"
+    - 7.4
 
 before_script:
     #- make install check
     - make install
 
 script:
-    - make test
     - make phpunit
+

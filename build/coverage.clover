@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1620988663">
-  <project timestamp="1620988663">
+<coverage generated="1620992600">
+  <project timestamp="1620992600">
     <file name="C:\Users\Othor\dbwebb-kurser\mvc\me\ci\config\bootstrap.php">
       <line num="10" type="stmt" count="1"/>
       <line num="11" type="stmt" count="1"/>
@@ -260,7 +260,7 @@
     </file>
     <file name="C:\Users\Othor\dbwebb-kurser\mvc\me\ci\src\Dice\Game.php">
       <class name="Mos\Dice\Game" namespace="global">
-        <metrics complexity="7" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="26" elements="33" coveredelements="27"/>
+        <metrics complexity="7" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="31" elements="33" coveredelements="33"/>
       </class>
       <line num="14" type="method" name="playGame" visibility="public" complexity="1" crap="1" count="1"/>
       <line num="17" type="stmt" count="1"/>
@@ -272,7 +272,7 @@
       <line num="31" type="stmt" count="1"/>
       <line num="32" type="stmt" count="1"/>
       <line num="33" type="stmt" count="1"/>
-      <line num="35" type="method" name="playGameComp" visibility="public" complexity="6" crap="6.42" count="1"/>
+      <line num="35" type="method" name="playGameComp" visibility="public" complexity="6" crap="6" count="1"/>
       <line num="38" type="stmt" count="1"/>
       <line num="40" type="stmt" count="1"/>
       <line num="41" type="stmt" count="1"/>
@@ -280,13 +280,13 @@
       <line num="43" type="stmt" count="1"/>
       <line num="45" type="stmt" count="1"/>
       <line num="46" type="stmt" count="1"/>
-      <line num="47" type="stmt" count="0"/>
-      <line num="48" type="stmt" count="0"/>
+      <line num="47" type="stmt" count="1"/>
+      <line num="48" type="stmt" count="1"/>
       <line num="49" type="stmt" count="1"/>
       <line num="50" type="stmt" count="1"/>
-      <line num="51" type="stmt" count="0"/>
-      <line num="52" type="stmt" count="0"/>
-      <line num="53" type="stmt" count="0"/>
+      <line num="51" type="stmt" count="1"/>
+      <line num="52" type="stmt" count="1"/>
+      <line num="53" type="stmt" count="1"/>
       <line num="54" type="stmt" count="1"/>
       <line num="55" type="stmt" count="1"/>
       <line num="56" type="stmt" count="1"/>
@@ -295,7 +295,7 @@
       <line num="63" type="stmt" count="1"/>
       <line num="64" type="stmt" count="1"/>
       <line num="65" type="stmt" count="1"/>
-      <metrics loc="66" ncloc="66" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="26" elements="33" coveredelements="27"/>
+      <metrics loc="66" ncloc="66" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="31" elements="33" coveredelements="33"/>
     </file>
     <file name="C:\Users\Othor\dbwebb-kurser\mvc\me\ci\src\Dice\GraphicalDice.php">
       <class name="Mos\Dice\GraphicalDice" namespace="global">
@@ -446,6 +446,6 @@
       <line num="213" type="stmt" count="2"/>
       <metrics loc="213" ncloc="149" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="63" coveredstatements="56" elements="63" coveredelements="56"/>
     </file>
-    <metrics files="17" loc="1089" ncloc="880" classes="14" methods="36" coveredmethods="30" conditionals="0" coveredconditionals="0" statements="316" coveredstatements="220" elements="352" coveredelements="250"/>
+    <metrics files="17" loc="1089" ncloc="880" classes="14" methods="36" coveredmethods="31" conditionals="0" coveredconditionals="0" statements="316" coveredstatements="225" elements="352" coveredelements="256"/>
   </project>
 </coverage>
