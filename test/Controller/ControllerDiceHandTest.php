@@ -37,7 +37,7 @@ class ControllerDiceHandTest extends TestCase
     }
 
     /* testar att jag får tebx en array med 5 värden i  */
-     public function testGetLastRollWithoutSum()
+    public function testGetLastRollWithoutSum()
     {
         $controller = new DiceHand(5);
         $this->assertInstanceOf("\Mos\Dice\DiceHand", $controller);
@@ -53,10 +53,9 @@ class ControllerDiceHandTest extends TestCase
         $controller = new DiceHand(5);
         $this->assertInstanceOf("\Mos\Dice\DiceHand", $controller);
         $controller->roll();
-        $arrayOfGraphDiceValues = $controller->getGraphicalDices();
-        $this->assertIsArray($arrayOfGraphDiceValues);
-        $this->assertEquals(count($arrayOfGraphDiceValues), 5);
-
+        $arrayGraphDiceValu = $controller->getGraphicalDices();
+        $this->assertIsArray($arrayGraphDiceValu);
+        $this->assertEquals(count($arrayGraphDiceValu), 5);
     }
 
     /* kontrollerar att metoden ger mig summan som måste vara i intervallet 3-30 då 5*6 = 30 och 1*5 = 5 */
@@ -66,7 +65,7 @@ class ControllerDiceHandTest extends TestCase
         $controller = new DiceHand(5);
         $this->assertInstanceOf("\Mos\Dice\DiceHand", $controller);
         $controller->roll();
-        
+
         $getSum = $controller->getSum();
         $this->assertLessThanOrEqual(30, $getSum);
         $this->assertGreaterThanOrEqual(5, $getSum);
@@ -84,7 +83,6 @@ class ControllerDiceHandTest extends TestCase
         $arrayOfDiceValues2 = $controller->getLastRollWithoutSum();
 
         $this->assertEquals(count($arrayOfDiceValues2), 2);
-
     }
 
     /* testar att hämta 3 olika värde med get.  */

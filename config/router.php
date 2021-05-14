@@ -10,7 +10,6 @@ declare(strict_types=1);
 
 use FastRoute\RouteCollector;
 
-
 $router = $router ?? new RouteCollector(    // kmom03 hela stycket
     new \FastRoute\RouteParser\Std(),
     new \FastRoute\DataGenerator\MarkBased()

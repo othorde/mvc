@@ -118,7 +118,7 @@ class YatzyGame extends DiceHand
             $returnMess = "Du ska ha sexor";
         } else if ($this->whatRound == 7) {
             $returnMess = "Du är klar med spelet";
-        } 
+        }
         return $returnMess;
     }
 }

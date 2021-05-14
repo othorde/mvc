@@ -88,11 +88,11 @@ function renderTwigView(
 //  *
 //  * @return void
 //  */
- function sendResponse(string $body, int $status = 200): void
- {
-     http_response_code($status);
-     echo $body;
- }
+function sendResponse(string $body, int $status = 200): void
+{
+    http_response_code($status);
+    echo $body;
+}
 //
 //
 //
@@ -103,11 +103,11 @@ function renderTwigView(
 //  *
 //  * @return void
 //  */
- function redirectTo(string $url): void
- {
-     http_response_code(200);
-     header("Location: $url");
- }
+function redirectTo(string $url): void
+{
+    http_response_code(200);
+    header("Location: $url");
+}
 
 
 

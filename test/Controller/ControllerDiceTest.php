@@ -32,8 +32,6 @@ class ControllerDiceTest extends TestCase
         $this->assertIsInt($res);
         $this->assertGreaterThan(0, $res);
         $this->assertLessThan(7, $res);
-
-
     }
     /* Kollar att jag får tillbaka samma resultat som det jag kasta */
     public function testRollReturnsSameAsGetLastRoll()

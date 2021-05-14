@@ -28,7 +28,6 @@ class Yatzy
             "header" => "Yatzy 0.2 ",
             "message" => "Hej! <br> Spela spelet genom att kasta tärningen. <br>
             Välj vilka tärningar du vill spara genom att markera dem.",
-            
         ];
 
         $body = renderView("layout/yatzy.php", $data);

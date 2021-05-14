@@ -20,11 +20,10 @@ class ControllerYatzyGameTest extends TestCase
         $controller = new YatzyGame(2);
         $this->assertInstanceOf("\Mos\Dice\YatzyGame", $controller);
         $this->assertInstanceOf("\Mos\Dice\DiceHand", $controller);
-
     }
 
     /* testar sätta round till ett värde och ser om det är vad som retuneras av metoden
-    Testar else satsen genom att skicka in värdet null, vilket innebär att värdet ej är satt enligt docs, 
+    Testar else satsen genom att skicka in värdet null, vilket innebär att värdet ej är satt enligt docs,
     vilket gör att jag testar else satsen */
     public function testWhatRound()
     {
@@ -62,7 +61,6 @@ class ControllerYatzyGameTest extends TestCase
         $this->assertSame($value, "<b> Kasta om alla tärningar, ny runda! </b>");
     }
 
-    
     /* testar att metoden gör om och tar bort KASTA samt retunerar rätt värde */
     public function testSavedDices()
     {
@@ -90,7 +88,7 @@ class ControllerYatzyGameTest extends TestCase
         $controller->whatRound = 1;
         $returnMess = $controller->returnMess();
         $this->assertSame($returnMess, "Du ska ha ettor");
-        
+
         $controller->whatRound = 2;
         $returnMess = $controller->returnMess();
         $this->assertSame($returnMess, "Du ska ha tvåor");
@@ -115,8 +113,8 @@ class ControllerYatzyGameTest extends TestCase
         $returnMess = $controller->returnMess();
         $this->assertSame($returnMess, "Du är klar med spelet");
     }
-    
-    
+
+
     public function testCheckScore()
     {
         $controller = new YatzyGame(5);

@@ -58,7 +58,6 @@ class ControllerGameTest extends TestCase
         $controller->playGameComp(2);
         $this->assertEquals($_SESSION["comSays"], "Du fick 21, men det fick datorn också, datorn vinner");
 
-        
         $_SESSION["PlayerPoints"] = 21;
         $_SESSION["compSum"] = 21;
         $_SESSION["diceHandRollComp"] = 0;
