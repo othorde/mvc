@@ -10,3 +10,7 @@ kmom02
 bättre struktur detta kmom. 
 Problem med git, fick göra en force för att commita, något har gått snett.
 Nu visas bara gamla taggen. Försöker få in en tag på kmom02 
+
+KMOM06
+
+![scrutinizer och travis](namn.png)
